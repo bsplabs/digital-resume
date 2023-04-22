@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', 'Noto Sans Thai', sans-serif;
+}
+
+@layer base {
+  h2 {
+    @apply text-[1.5em];
+  }
+
+  span {
+    @apply text-[1em];
+  }
+}
+
+a {
+  @apply font-medium no-underline text-cyan-500;
+}
